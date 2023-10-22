@@ -3,10 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/MainJFrame.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/ProfessorRegisterJPanel.java</file>
             <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/ProfessorJPanel.java</file>
-            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/AdministratorJPanel.java</file>
-            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/StudentJPanel.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/MainJFrame.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/AddCourseJPanel.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/AddSheduleJPanel.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/ProfessorJFrame.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/ViewCourseJPanel.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/AddGradeJPanel.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/ViewSheduleJPanel.java</file>
+            <file>file:/C:/Users/vsbk0/OneDrive/Documents/NetBeansProjects/GroupProjectEducationPlatform/src/ui/RubricsJPanel.java</file>
         </group>
     </open-files>
 </project-private>
