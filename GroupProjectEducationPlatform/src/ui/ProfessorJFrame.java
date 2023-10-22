@@ -30,8 +30,8 @@ public class ProfessorJFrame extends javax.swing.JFrame {
         controlPanel = new javax.swing.JPanel();
         bnaddCourse = new javax.swing.JButton();
         btnviewCourse = new javax.swing.JButton();
-        btnaddShedule = new javax.swing.JButton();
-        btnviewShedule = new javax.swing.JButton();
+        btnaddSchedule = new javax.swing.JButton();
+        btnviewSchedule = new javax.swing.JButton();
         btnRubrics = new javax.swing.JButton();
         btnaddGrade = new javax.swing.JButton();
         workArea = new javax.swing.JPanel();
@@ -47,9 +47,14 @@ public class ProfessorJFrame extends javax.swing.JFrame {
 
         btnviewCourse.setText("View Course");
 
-        btnaddShedule.setText("Add Shedule");
+        btnaddSchedule.setText("Add Schedule");
+        btnaddSchedule.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnaddScheduleActionPerformed(evt);
+            }
+        });
 
-        btnviewShedule.setText("View Shedule");
+        btnviewSchedule.setText("View Schedule");
 
         btnRubrics.setText("Rubrics");
 
@@ -64,14 +69,14 @@ public class ProfessorJFrame extends javax.swing.JFrame {
                 .addGroup(controlPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(bnaddCourse)
                     .addComponent(btnviewCourse)
-                    .addComponent(btnaddShedule)
-                    .addComponent(btnviewShedule)
+                    .addComponent(btnaddSchedule)
+                    .addComponent(btnviewSchedule)
                     .addComponent(btnRubrics)
                     .addComponent(btnaddGrade))
-                .addContainerGap(503, Short.MAX_VALUE))
+                .addContainerGap(497, Short.MAX_VALUE))
         );
 
-        controlPanelLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {bnaddCourse, btnRubrics, btnaddGrade, btnaddShedule, btnviewCourse, btnviewShedule});
+        controlPanelLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {bnaddCourse, btnRubrics, btnaddGrade, btnaddSchedule, btnviewCourse, btnviewSchedule});
 
         controlPanelLayout.setVerticalGroup(
             controlPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -80,18 +85,18 @@ public class ProfessorJFrame extends javax.swing.JFrame {
                 .addComponent(bnaddCourse)
                 .addGap(45, 45, 45)
                 .addComponent(btnviewCourse)
-                .addGap(45, 45, 45)
-                .addComponent(btnaddShedule)
                 .addGap(54, 54, 54)
-                .addComponent(btnviewShedule)
-                .addGap(51, 51, 51)
+                .addComponent(btnaddSchedule)
+                .addGap(55, 55, 55)
+                .addComponent(btnviewSchedule)
+                .addGap(49, 49, 49)
                 .addComponent(btnRubrics)
-                .addGap(43, 43, 43)
+                .addGap(41, 41, 41)
                 .addComponent(btnaddGrade)
-                .addContainerGap(103, Short.MAX_VALUE))
+                .addContainerGap(97, Short.MAX_VALUE))
         );
 
-        controlPanelLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {bnaddCourse, btnRubrics, btnaddGrade, btnaddShedule, btnviewCourse, btnviewShedule});
+        controlPanelLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {bnaddCourse, btnRubrics, btnaddGrade, btnaddSchedule, btnviewCourse, btnviewSchedule});
 
         jSplitPane1.setRightComponent(controlPanel);
 
@@ -125,6 +130,10 @@ public class ProfessorJFrame extends javax.swing.JFrame {
     private void bnaddCourseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bnaddCourseActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_bnaddCourseActionPerformed
+
+    private void btnaddScheduleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaddScheduleActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnaddScheduleActionPerformed
 
     /**
      * @param args the command line arguments
@@ -165,9 +174,9 @@ public class ProfessorJFrame extends javax.swing.JFrame {
     private javax.swing.JButton bnaddCourse;
     private javax.swing.JButton btnRubrics;
     private javax.swing.JButton btnaddGrade;
-    private javax.swing.JButton btnaddShedule;
+    private javax.swing.JButton btnaddSchedule;
     private javax.swing.JButton btnviewCourse;
-    private javax.swing.JButton btnviewShedule;
+    private javax.swing.JButton btnviewSchedule;
     private javax.swing.JPanel controlPanel;
     private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JPanel workArea;

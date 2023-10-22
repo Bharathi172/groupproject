@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="IbcourseName" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="IbcourseNumber" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Component id="IbTime" min="-2" max="-2" attributes="0"/>
+                      <Component id="IbDays" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtcourseName" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox1" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox2" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcourseNumber" linkSize="1" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="121" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="IbTitle" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnaddSchedule" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="260" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="IbTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="IbcourseNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcourseNumber" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="IbcourseName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcourseName" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="IbDays" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox1" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="IbTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox2" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="btnaddSchedule" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="167" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="IbcourseNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Course Number :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcourseNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="IbcourseName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Course Name :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcourseName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="IbDays">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Days :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="IbTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Time :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="Select"/>
+            <StringItem index="1" value="Sunday"/>
+            <StringItem index="2" value="Monday"/>
+            <StringItem index="3" value="Tuesday"/>
+            <StringItem index="4" value="Wednesday"/>
+            <StringItem index="5" value="Thursday"/>
+            <StringItem index="6" value="Friday"/>
+            <StringItem index="7" value="Saturday"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Select"/>
+            <StringItem index="1" value="9 AM - 12 PM"/>
+            <StringItem index="2" value="11: 45 AM - 1:25 PM"/>
+            <StringItem index="3" value="2 : 30 PM - 6 PM"/>
+            <StringItem index="4" value="3 PM - 6 PM"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnaddSchedule">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Schedule"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="IbTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Course Shedule"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
